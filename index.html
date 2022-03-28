@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resverve Cut</title>
+    <link rel="icon" href="img/logomini.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+      <!--Scroll chido-->
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+</head>
+
+<body>
+    <div class="hide-on-desktop">
+        <!--Navbar-->
+        <div class="navbar" style="padding-top: 1vh;">
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="width: 88vw;">
+                            <a href="#inicio">
+                                <img class="logo_movil" src="img/logomini.svg">
+                            </a>
+                        </td>
+                        <td>
+                            <div class="menu-icon" style="z-index: 9;">
+                                <input name="foo" class="menu-icon__cheeckbox" type="checkbox"
+                                    onclick="OCNav();toggle(this)" />
+                                <div>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <!--Primer Sidenav-->
+                            <div class="sidenav" id="mySidenav">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <label>MENÚ
+                                                    <input name="foo" checked="true" type="checkbox"
+                                                        onclick='toggle(this);OCNav();window.location.assign("#menu")' />
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label>STAFF
+                                                    <input name="foo" checked="true" type="checkbox"
+                                                        onclick='toggle(this);OCNav();window.location.assign("#staffN")' />
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="https://api.whatsapp.com/send/?phone=5215589469745&text&app_absent=0"
+                                                    target="_blank">RESERVAR</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="redesMov" style="border-top: 3vh solid transparent;">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a href="https://www.facebook.com/reservecutmx/" target="_blank">
+                                                    <img src="img/fbb.svg"></a>
+                                            </td>
+                                            <td>
+                                                <a href="https://www.instagram.com/reservecutmx/" target="_blank">
+                                                    <img src="img/instab.svg"></a>
+                                            </td>
+                                            <td>
+                                                <a href="https://api.whatsapp.com/send/?phone=5215589469745&text&app_absent=0"
+                                                    target="_blank">
+                                                    <img src="img/whats.svg"></a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div onclick='toggle(this);OCNav();' class="TodoSideNav" id="Nibba"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--Fin Navbar-->
+        <!--video-->
+        <div style="padding-top: 8vh;" id="inicio">
+            <video src="video/video-bg.webm" autoplay muted loop style="width: 99vw; filter: brightness(30%); "></video>
+        </div>
+        <!--fin video-->
+        <!--nosotros-->
+        <div class="nosotrosMov">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <h3 style="font-size: 7vw;">Reserve Cut</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                Rompemos los paradigmas de una Barbershop, la llevamos al siguiente nivel para darte una
+                                experiencia exclusiva en todos los sentidos.<br> Nuestros master barbers entenderán tus
+                                necesidades y te darán un trato como lo mereces.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button role="link"
+                                onclick="javascript:window.open('https://api.whatsapp.com/send/?phone=5215589469745&text&app_absent=0', '_blank');"
+                                class="btn btna">Agendar Cita</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--fin nosotros-->
+        <!--Galeria-->
+        <!--Segundo carrusel-->
+        <div>
+            <h3 style="font-size: 7vw; color: white; padding-left: 6vw;">Galeria</h3>
+            <div class="slideshow-container ">
+
+                <div class="mySlidesMov fade ">
+                    <img src="img/gal/gal-20.jpg" style="width:100% ">
+                </div>
+
+                <div class="mySlidesMov fade ">
+                    <img src="img/gal/gal-04.jpg" style="width:100% ">
+                </div>
+
+                <div class="mySlidesMov fade ">
+                    <img src="img/gal/gal-09.jpg" style="width:100% ">
+                </div>
+                <div class="mySlidesMov fade ">
+                    <img src="img/gal/gal-10.jpg" style="width:100% ">
+                </div>
+                <div class="mySlidesMov fade ">
+                    <img src="img/gal/gal-11.jpg" style="width:100% ">
+                </div>
+
+                <div class="mySlidesMov fade ">
+                    <img src="img/gal/gal-13.png" style="width:100% ">
+                </div>
+
+                <div class="mySlidesMov fade ">
+                    <img src="img/gal/gal-15.jpg" style="width:100% ">
+                </div>
+                <div class="mySlidesMov fade ">
+                    <img src="img/gal/gal-16.jpg" style="width:100% ">
+                </div>
+
+                <div class="mySlidesMov fade ">
+                    <img src="img/gal/gal-02.jpg" style="width:100% ">
+                </div>
+                <div class="mySlidesMov fade ">
+                    <img src="img/gal/gal-21.jpg" style="width:100% ">
+                </div>
+                <div class="mySlidesMov fade ">
+                    <img src="img/gal/gal-01.png" style="width:100% ">
+                </div>
+                <div class="flechitas">
+                    <a class="prevMov" onclick="plusSlidesMov(-1) ">&#10094;</a>
+                    <a class="nextMov" onclick="plusSlidesMov(1) ">&#10095;</a>
+                </div>
+            </div>
+            <br>
+            <div class="dot_container ">
+                <span class="dotMov" onclick="currentSlideMov(1) "></span>
+                <span class="dotMov" onclick="currentSlideMov(2) "></span>
+                <span class="dotMov" onclick="currentSlideMov(3) "></span>
+                <span class="dotMov" onclick="currentSlideMov(4) "></span>
+                <span class="dotMov" onclick="currentSlideMov(5) "></span>
+                <span class="dotMov" onclick="currentSlideMov(6) "></span>
+                <span class="dotMov" onclick="currentSlideMov(7) "></span>
+                <span class="dotMov" onclick="currentSlideMov(8) "></span>
+                <span class="dotMov" onclick="currentSlideMov(9) "></span>
+                <span class="dotMov" onclick="currentSlideMov(10) "></span>
+                <span class="dotMov" onclick="currentSlideMov(11) "></span>
+            </div>
+        </div>
+        <!--Fin segundo carrusel-->
+        <!--fin Galeria-->
+        <!--Boss Room-->
+        <div class="boss">
+            <img src="img/logo-bossroom.svg">
+            <p>Disfruta de una experiencia de relajación en todos los sentidos en nuestra <strong>cabina
+                    privada.</strong> Un momento exclusivo 100% para ti.
+            </p>
+            <button role="link"
+                onclick="javascript:window.open( 'https://api.whatsapp.com/send/?phone=5215589469745&text&app_absent=0', '_blank');"
+                class="btn btna" target="_blank">Agendar Cita</button>
+        </div>
+        <!--Fin Boss Room-->
+        <!--Servicios-->
+
+        <h3 id="menu" style="font-size: 7vw; color: white; padding-left: 6vw;">Menú de Servicios</h3>
+        <div>
+            <section class="ac-container">
+                <div>
+                    <input id="ac-1" name="accordion-1" type="radio">
+                    <label for="ac-1"><img src="img/icoserv/groom.svg">&nbsp; Grooming</label>
+                    <article class="ac-medium">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>Corte&nbsp;de&nbsp;cabello</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 690</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Afeitado&nbsp;de&nbsp;cabeza</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 490</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Corte&nbsp;niños</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 390</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: center;">
+                                        <p><img src="img/icoserv/bossgroom.svg" style="width: 60vw;"></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-2" name="accordion-1" type="radio">
+                    <label for="ac-2"><img src="img/icoserv/barb.svg">&nbsp; Barbería</label>
+                    <article class="ac-medium">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>Arreglo&nbsp;de&nbsp;barba</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 390</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Afeitado&nbsp;de&nbsp;barba</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 290</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Recorte&nbsp;y&nbsp;arreglo&nbsp;de&nbsp;bigote</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 190</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: center;">
+                                        <p><img src="img/icoserv/bossbarb.svg" style="width: 60vw;"></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-3" name="accordion-1" type="radio">
+                    <label for="ac-3"><img src="img/icoserv/paq.svg">&nbsp; Paquetes</label>
+                    <article class="ac-large">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p style="margin-bottom: 10px; font-weight: bold;">Gold&nbsp;Xperience
+                                        <p class="paqe">
+                                            Corte&nbsp;de&nbsp;cabello&nbsp;+&nbsp;Arreglo&nbsp;de&nbsp;barba</p>
+                                        <p class="paqe"><br>+ Masaje de hombros y cuello<br>+ Bebida de cortesía</p>
+                                        </p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 990</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="margin-bottom: 10px; font-weight: bold;">
+                                            Reserve&nbsp;Cut&nbsp;Xperience
+                                        <p class="paqe">Corte de cabello + Arreglo de barba</p>
+                                        <p class="paqe"><br>+ Manicure<br>+ Pedicure <br>+&nbsp;Bebida de cortesía</p>
+                                        </p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 1,590</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: center;">
+                                        <p><img src="img/icoserv/bossbarb.svg" style="width: 60vw;"></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-4" name="accordion-1" type="radio">
+                    <label for="ac-4"><img src="img/icoserv/mano.svg">&nbsp;Manos&nbsp;y&nbsp; pies</label>
+                    <article class="ac-medium">
+                        <br>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p style="margin-bottom: 0;">Manicure</p>
+                                        <p class="paqe">+&nbsp;Masaje&nbsp;&nbsp;de&nbsp;manos</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 290</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="margin-bottom: 0;">Pedicure</p>
+                                        <p class="paqe">+ Masaje&nbsp;de&nbsp;pies</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 390</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="margin-bottom: 0;">Manicure&nbsp;Pedicure</p>
+                                        <p class="paqe">+&nbsp;Masaje&nbsp;de&nbsp;manos&nbsp;y&nbsp;pies</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 590</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-5" name="accordion-1" type="radio">
+                    <label for="ac-5"><img src="img/icoserv/masa.svg">&nbsp; Masajes</label>
+                    <article class="ac-large">
+                        <br>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p style="margin-bottom: 0;">Masaje&nbsp;shiatsu</p>
+                                        <p class="paqe">20 min</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 390</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="margin-bottom: 0;">Masaje&nbsp;shiatsu</p>
+                                        <p class="paqe">40 min</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 690</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="margin-bottom: 0;">Masaje&nbsp;de&nbsp;manos&nbsp;y&nbsp;pies</p>
+                                        <p class="paqe">30 min</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 490</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="margin-bottom: 0;">Masaje&nbsp;de&nbsp;manos&nbsp;y&nbsp;pies con
+                                            reflexología</p>
+                                        <p class="paqe">30 min</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 490</p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="2" style="text-align: center;">
+                                        <p class="paqe" style="font-style: italic; padding-top: 40px;">Próximamente:
+                                            Masaje descontracturante</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-6" name="accordion-1" type="radio">
+                    <label for="ac-6"><img src="img/icoserv/fac.svg">&nbsp; Faciales</label>
+                    <article class="ac-small">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p style="margin-bottom: 0;">Deep&nbsp;Cleanse</p>
+                                        <p class="paqe">30 min</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 990</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="margin-bottom: 0;">Mascarilla carbón activado</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p>$ 190</p>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-7" name="accordion-1" type="radio">
+                    <label for="ac-7"><img src="img/icoserv/color.svg">&nbsp; Coloración</label>
+                    <article class="ac-large">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p style="margin-bottom: 0;">Matizante&nbspespecial para canas*</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p class="paqe" style="padding-top: 10px;">Desde</p>
+                                        <p style="margin-top: 0;">$ 590</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="margin-bottom: 0;">Matizante&nbsp;especial para canas para barba*</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p class="paqe">Desde</p>
+                                        <p style="margin-top: 0;">$ 290</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="margin-bottom: 0;">Tinte para cabello*</p>
+                                    </td>
+                                    <td style="text-align: right;">
+                                        <p class="paqe">Desde</p>
+                                        <p style="margin-top: 0;">$ 790</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: center;">
+                                        <p class="paqe" style="font-style: italic; padding-top: 40px;">*Depende del
+                                            grueso y el largo del cabello</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <!--fin Servicios-->
+        <!--STAFF-->
+        <div class="nosotrosMov" id="staffN">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <h3 style="font-size: 7vw;">Staff</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Nuestro equipo traducirá cada una de tus necesidades para transformarlas en<br>una
+                                experiencia de relajación en todos los sentidos; exactamente como lo mereces.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="MenProdMov">
+            <table>
+                <tbody>
+                    <div class="vert">
+                        <tr>
+                            <td>
+                                <div class="hor">
+                                    <div class="cell" onclick="OCSta1();">
+                                        <img src="img/staff/staff1.jpg">
+                                        <div class="txtProd" id="txtprod1">
+                                            <span>Julio</span>
+                                            <img src="img/up_arrow.png" class="staffArrow" id="flechaJul">
+                                        </div>
+                                        <div class="staff" id="staff1">
+                                            <div>
+                                                <p class="cerrarStaff">x</p>
+                                                <p class="nombreStaff">Julio</p>
+                                                <img src="img/staff/linlogo.svg"><br>
+                                                <span>Master Barber<br>Experto en cortes clásicos, contemporáneos y
+                                                    barbas largas.</span><br>
+                                                <img src="img/staff/line.png" style="height: 1px;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="hor">
+                                    <div class="cell" onclick="OCSta4();">
+                                        <img src="img/staff/staff4.jpg">
+                                        <div class="txtProd" id="txtprod4">
+                                            <span>Nancy</span>
+                                            <img src="img/up_arrow.png" class="staffArrow" id="flechaNan">
+                                        </div>
+                                        <div class="staff" id="staff4">
+                                            <div>
+                                                <p class="cerrarStaff">x</p>
+                                                <p class="nombreStaff">Nancy</p>
+                                                <img src="img/staff/linlogo.svg"><br>
+                                                <span>Te dará la bienvenida a tu<br>experiencia de
+                                                    relajación.</span><br>
+                                                <img src="img/staff/line.png" style="height: 1px;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="hor">
+                                    <div class="cell" onclick="OCSta2();">
+                                        <img src="img/staff/staff2.jpg">
+                                        <div class="txtProd" id="txtprod2">
+                                            <span>Petter</span>
+                                            <img src="img/up_arrow.png" class="staffArrow" id="flechaPet">
+                                        </div>
+                                        <div class="staff" id="staff2">
+                                            <div>
+                                                <p class="cerrarStaff">x</p>
+                                                <p class="nombreStaff">Petter</p>
+                                                <img src="img/staff/linlogo.svg"><br>
+                                                <span>Master Barber<br>Domina el grooming masculino tratándose de cortes
+                                                    y barbas.</span><br>
+                                                <img src="img/staff/line.png" style="height: 1px;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                    </div>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <!--Fin STAFF-->
+        <!--Footer-->
+        <footer>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>RESERVACIONES</td>
+                    </tr>
+                    <tr>
+                        <td>hola@reservecut.com.mx</td>
+                    </tr>
+                    <tr>
+                        <td>55 8946 9745</td>
+                    </tr>
+                    <tr>
+                        <td><button role="link"
+                                onclick="javascript:window.open( 'https://api.whatsapp.com/send/?phone=5215589469745&text&app_absent=0', '_blank');"
+                                class="btn btna" target="_blank">Agendar Cita</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><u>VISÍTANOS</u>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="https://goo.gl/maps/g3AHazTLG3M924vA6" target="_blank">
+                                <img class="pin-icon" src="./img/map-pins-vector-clipart.png" alt=""></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>SIGUENOS EN NUESTRAS REDES SOCIALES</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="https://www.facebook.com/reservecutmx/" target="_blank">
+                                <img src="img/fbd.svg" alt="facebook" style="margin: 5px; width: 4vh;"></a>
+                            <a href="https://www.instagram.com/reservecutmx/" target="_blank">
+                                <img src="img/instad.svg" alt="instagram" style="margin: 5px; width: 4vh;"></a>
+                            <a href="https://api.whatsapp.com/send/?phone=5215589469745&text&app_absent=0"
+                                target="_blank" target="_blank">
+                                <img src="img/whatsd.svg" alt="WhatsApp" style="margin: 5px; width: 4vh;"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><u><a href="avisoPriv.html" target="_blank">AVISO DE PRIVACIDAD</a></u></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: center;"><a href="index.html"><img
+                                    style="width: 60%; padding-right: 13vw; padding-top: 5vh;"
+                                    src="img/logoFooter.svg"></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </footer>
+        <!--Fin Footer-->
+    </div>
+    <div class="hide-on-mobile-tablet">
+        <!--Navbar-->
+        <div class="navbar">
+            <div class="nav-redes">
+                <div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><a href="#menue" class="scrollLink">MENÚ</a></td>
+                                <td><a href="#staffNe" class="scrollLink">STAFF</a></td>
+                                <td style="border-right: 10vh solid transparent;">
+                                    <a href="https://api.whatsapp.com/send/?phone=5215589469745&text&app_absent=0"
+                                        target="_blank">RESERVA</a>
+                                </td>
+                                <td>
+                                    <a href="https://www.facebook.com/reservecutmx/" target="_blank">
+                                        <img src="img/fbd.svg" alt="facebook"></a>
+                                </td>
+                                <td>
+                                    <a href="https://www.instagram.com/reservecutmx/" target="_blank">
+                                        <img src="img/instad.svg" alt="instagram"></a>
+                                </td>
+                                <td>
+                                    <a href="https://api.whatsapp.com/send/?phone=5215589469745&text&app_absent=0"
+                                        target="_blank">
+                                        <img src="img/whatsd.svg" alt="Whatsapp"></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <a href="#inicioe" class="scrollLink">
+                <img class="navbarLogo" src="img/logo.svg" alt="inicio;">
+            </a>
+        </div>
+        <!--Fin Navbar-->
+
+        <!--Boton de Whats-->
+        <div>
+            <a href="https://api.whatsapp.com/send/?phone=5215589469745&text&app_absent=0" target="_blank">
+                <img class="btnwhats" src="img/whats.svg"></a>
+        </div>
+        <!--Fin Boton de Whats-->
+        <!--Video-->
+        <!-- partial:index.partial.html -->
+        <div class="containerInicio" id="inicioe">
+            <video class="video" autoplay muted loop style="filter: brightness(30%);">
+                <source src="video/video-bg.webm">
+            </video>
+            <div class="sobreVid">
+                <h2>Reserve Cut</h2>
+                <p>
+                    Rompemos los paradigmas de una Barbershop,<br>la llevamos al siguiente nivel para darte
+                    una<br>experiencia en todos los sentidos.<br> Nuestros master barbers entenderán<br>tus necesidades
+                    y te darán un trato como lo mereces.
+                </p>
+            </div>
+            <button role="link"
+                onclick="javascript:window.open( 'https://api.whatsapp.com/send/?phone=5215589469745&text&app_absent=0 ', '_blank ');"
+                class="btnVid btna btn" style="z-index: 3;" target="_blank">Agendar Cita</button>
+        </div>
+        <!--Fin video-->
+        <!--Seccion carrusel-->
+        <div>
+            <h2 style="margin-left:4vw;">Galería</h2>
+            <div id="app" class="carrusel ">
+            </div>
+        </div>
+        <!--Fin seccion carrusel-->
+        <!--Boss Room-->
+        <div class="boss">
+            <img src="img/logo-bossroom.svg">
+            <p style="letter-spacing: 1px;">Disfruta de una experiencia de relajación en todos los sentidos
+                en<br><strong> cabina privada.</strong> Un momento exclusivo 100% para ti.</p>
+            <button role="link"
+                onclick="javascript:window.open( 'https://api.whatsapp.com/send/?phone=5215589469745&text&app_absent=0', '_blank');"
+                class="btn btna" target="_blank">Agendar Cita</button>
+        </div>
+        <!--Fin Boss Room-->
+        <!--Servicios-->
+        <div id="menue">
+            <h2 style="margin-left:4vw;">Menú de servicios</h2>
+            <p style="margin-left:4vw;">Transformamos el grooming tradicional para crear una<br>experiencia exclusiva,
+                donde lo único importante seas tú.
+            </p>
+        </div>
+        <br>
+        <div align="center" class="container-fluid tablaopc">
+            <div class="row" style="margin-left:2vw">
+                <div class="col-md-4">
+                    <div class="cardf1" style="background-image: url(img/serv/serv1.png);">
+                        <div class="content">
+                            <div class="title barratitulo">
+                                <h2 class="title"> <img src="img/icoserv/groom.svg" style="margin-left: 10vw;"> Grooming
+                                </h2>
+                            </div>
+                            <table class="tablacard">
+                                <tr>
+                                    <td>Corte&nbsp;de&nbsp;cabello</td>
+                                    <td>$&nbsp;690</td>
+                                </tr>
+                                <tr>
+                                    <td>Afeitado&nbsp;de&nbsp;cabeza</td>
+                                    <td>$&nbsp;490</td>
+                                </tr>
+                                <tr>
+                                    <td>Corte&nbsp;niños</td>
+                                    <td>$&nbsp;390</td>
+                                </tr>
+                            </table>
+                            <img class="copys" src="img/icoserv/bossbarb.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cardf1" style="background-image: url(img/gal/gal-13.png);">
+                        <div class="content">
+                            <div class="title barratitulo">
+                                <h2 class="title"> <img src="img/icoserv/barb.svg" style="margin-left: 10vw;"> Barbería
+                                </h2>
+                            </div>
+                            <table class="tablacard">
+                                <tr>
+                                    <td>Arreglo&nbsp;de&nbsp;barba</td>
+                                    <td>$&nbsp;390</td>
+                                </tr>
+                                <tr>
+                                    <td>Afeitado&nbsp;de&nbsp;barba</td>
+                                    <td>$&nbsp;290</td>
+                                </tr>
+                                <tr>
+                                    <td>Recorte&nbsp;y&nbsp;arreglo&nbsp;de&nbsp;bigote</td>
+                                    <td>$&nbsp;190</td>
+                                </tr>
+                            </table>
+                            <img class="copys" src="img/icoserv/bossbarb.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cardf1" style="background-image: url(img/serv/serv3.png);">
+                        <div class="content" style="margin-top: .5vw;">
+                            <div class="title barratitulo">
+                                <h2 class="title" style="margin-left: 9vw; margin-bottom: 3vw;"> <img
+                                        src="img/icoserv/mano.svg">Manos&nbsp;y&nbsp;pies</h2>
+                            </div>
+                            <table class="tablacard" style="margin: 0; border-spacing:10vw 2vw;">
+                                <tr>
+                                    <td>Manicure<br>
+                                        <span>+&nbsp;Masaje&nbsp;de&nbsp;manos</span>
+                                    </td>
+                                    <td>$&nbsp;290</td>
+                                </tr>
+                                <tr>
+                                    <td>Pedicure<br><span>+&nbsp;Masaje&nbsp;de&nbsp;pies</span></td>
+                                    <td>$&nbsp;390</td>
+                                </tr>
+                                <tr>
+                                    <td>Manicure&nbsp;+&nbsp;Pedicure<br><span>+&nbsp;Masaje&nbsp;de&nbsp;manos&nbsp;y&nbsp;pies</span>
+                                    </td>
+                                    <td>$&nbsp;590</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Segunda Fila-->
+        <div align="center" class="container-fluid tablaopc">
+            <div class="row" style="margin-left:2vw">
+                <div class="col-md-4">
+                    <div class=" cardf2" style="background-image: url(img/gal/gal-02.jpg);">
+                        <div class="content">
+                            <div class="title barratitulo">
+                                <h2 class="title"> <img src="img/icoserv/masa.svg" style="margin-left: 10vw;"> Masajes
+                                </h2>
+                            </div>
+                            <table class="tablacard" style="border-spacing: 0.88vw; margin: 0">
+                                <tr>
+                                    <td>Masaje shiatsu<br>
+                                        <span>20 min</span>
+                                    </td>
+                                    <td>$&nbsp;390</td>
+                                </tr>
+                                <tr>
+                                    <td>Masaje shiatsu<br><span>40 min</span></td>
+                                    <td>$&nbsp;690</td>
+                                </tr>
+                                <tr>
+                                    <td style="border-right: 30px solid transparent;">
+                                        Masaje&nbsp;de&nbsp;manos&nbsp;y&nbsp;pies<br><span>30 min</span></td>
+                                    <td>$&nbsp;490</td>
+                                </tr>
+                                <tr>
+                                    <td style="border-right: 30px solid transparent;">
+                                        Masaje&nbsp;de&nbsp;manos&nbsp;y&nbsp;pies con reflexología<br><span>30
+                                            min</span>
+                                    </td>
+                                    <td>$&nbsp;490</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: center; font-style: italic;"><span>Próximamente:
+                                            Masaje descontracturante</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cardf2" style="background-image: url(img/serv/serv5.png);">
+                        <div class="content">
+                            <div class="title barratitulo">
+                                <h2 class="title"> <img src="img/icoserv/fac.svg" style="margin-left: 10vw;"> Faciales
+                                </h2>
+                            </div>
+                            <table class="tablacard" style="margin-top: 0vw; margin-bottom: 6vw;">
+                                <tr>
+                                    <td>Deep&nbsp;Cleanse<br>
+                                        <span>30 min</span>
+                                    </td>
+                                    <td>$&nbsp;990</td>
+                                </tr>
+                                <tr>
+                                    <td>Mascarilla&nbsp;carbón&nbsp;activado</td>
+                                    <td>$&nbsp;190</td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cardf2" style="background-image: url(img/gal/gal-16.jpg);">
+                        <div class="content">
+                            <div class="title barratitulo" style="margin-bottom: 0vw;">
+                                <h2 class="title" style="margin-left: 10vw; margin-bottom: 22px;"> <img
+                                        src="img/icoserv/color.svg"> Coloración</h2>
+                            </div>
+                            <table class="tablacard" style="border-spacing: 10vw 1vw; margin-top: 3vw">
+                                <tr>
+                                    <td>Matizante&nbsp;especial para&nbsp;canas*</td>
+                                    <td><span>Desde</span><br>$&nbsp;590</td>
+                                </tr>
+                                <tr>
+                                    <td>Matizante&nbsp;de&nbsp;canas para barba*</td>
+                                    <td><span>Desde</span><br>$&nbsp;290</td>
+                                </tr>
+                                <tr>
+                                    <td>Tinte para cabello*</td>
+                                    <td><span>Desde</span><br>$&nbsp;790</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: center; font-style: italic;"><span>*Depende del
+                                            grueso y el largo del cabello</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin Servicios-->
+        <!--Paquetes-->
+        <div class="paquetes">
+            <h2 style="margin-left:4vw;">Paquetes</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="marco">
+                                <table class="paq">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2" style="text-align: center;">
+                                                <img src="img/caramelo.svg">
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <h2>Gold&nbsp;Xperience</h2>
+                                                <p>Corte de cabello&nbsp;+&nbsp;Arreglo&nbsp;de&nbsp;barba</p>
+                                                <span>+&nbsp;Masaje&nbsp;de&nbsp;hombros&nbsp;y&nbsp;cuello&nbsp;+&nbsp;Bebida&nbsp;de&nbsp;cortesía</span>
+                                            </td>
+
+                                            <td>
+                                                <h2 class="precio">$&nbsp;990</h2>
+                                            </td>
+                                        </tr>
+                                        <tr style="text-align: center;">
+                                            <td colspan="2"><button role="link"
+                                                    onclick="javascript:window.open( 'https://api.whatsapp.com/send/?phone=5215589469745&text&app_absent=0', '_blank');"
+                                                    class="btn btna" style="z-index: 3;" target="_blank">Agendar
+                                                    Cita</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                        <td>
+                            <table class="paq">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="2" style="text-align: center;">
+                                            <img src="img/caramelo.svg">
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h2>Reserve&nbsp;Cut&nbsp;Xperience</h2>
+                                            <p>Corte&nbsp;de&nbsp;cabello&nbsp;+&nbsp;Arreglo&nbsp;de&nbsp;barba</p>
+                                            <span>+&nbsp;Manicure&nbsp;+&nbsp;Pedicure&nbsp;+&nbsp;Bebida&nbsp;de&nbsp;cortesía</span>
+                                        </td>
+                                        <td>
+                                            <h2 class="precio">$&nbsp;1,590</h2>
+                                        </td>
+                                    </tr>
+                                    <tr style="text-align: center;">
+                                        <td colspan="2"><button role="link"
+                                                onclick="javascript:window.open( 'https://api.whatsapp.com/send/?phone=5215589469745&text&app_absent=0', '_blank');"
+                                                class="btn btna" style="z-index: 3;" target="_blank">Agendar
+                                                Cita</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <img class="centroPaq" src="img/icoserv/bossbarb.svg">
+        </div>
+        <!--Fin Paquetes-->
+        <!--Staff-->
+        <div id="staffNe">
+            <h2 style="margin-left:4vw;">Staff</h2>
+            <p style="margin-left:4vw;">Nuestro equipo traducirá cada una de tus necesidades para transformarlas
+                en<br>una experiencia de relajación en todos los sentidos; exactamente como lo mereces.</p>
+            <div align="center" class="container-fluid tablaopc">
+                <div class="row" style="margin-left:2vw">
+                    <div class="col-md-4">
+                        <div class="cardf1" style="background-image: url(img/staff/staff1.jpg);">
+                            <div class="content">
+                                <div class="title barratitulo">
+                                    <h2 class="title" style="margin-left: 14.5vw;"> Julio</h2>
+                                </div>
+                                <table class="tablacard" style="padding-top: 0px; border-spacing: 0;">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img class="lin" src="img/staff/linlogo.svg">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p class="copy" style="margin-left: 20px;">10 años de experiencia. Se
+                                                    especializa en<br>cortes clásicos, contemporáneos y
+                                                    barbas<br>largas. Escucha con atención tus<br>necesidades para
+                                                    traducirlas en un estilo<br>acorde a tu personalidad.</p>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img class="lin" src="img/staff/line.png" style="height: 1px;">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="cardf1" style="background-image: url(img/staff/staff4.jpg);">
+                            <div class="content">
+                                <div class="title barratitulo">
+                                    <h2 class="title" style="margin-left: 14vw;"> Nancy</h2>
+                                </div>
+                                <table class="tablacard" style="padding-top: 0px; border-spacing: 0;">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img class="lin" src="img/staff/linlogo.svg">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p class="copy">Desde el primer momento en que nos<br>visitas, Nancy te
+                                                    dará la bienvenida a tu<br>experiencia de relajación en todos
+                                                    los<br>sentidos.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img class="lin" src="img/staff/line.png"
+                                                    style="height: 1px; margin-bottom: 2.5vw;">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="cardf1" style="background-image: url(img/staff/staff2.jpg);">
+                            <div class="content" style="margin-top: .5vw;">
+                                <div class="title barratitulo">
+                                    <h2 class="title" style="margin-left: 14.5vw; margin-bottom: 3vw;"> Petter</h2>
+                                </div>
+                                <table class="tablacard" style="padding-top: 0; border-spacing: 0;">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img class="lin" src="img/staff/linlogo.svg">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p class="copy">Más de 11 años de experiencia en servicios<br>de
+                                                    barbería. Domina el grooming<br>masculino tratándose de cortes y
+                                                    barbas<br> para cada uno de nuestros clientes.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img class="lin" src="img/staff/line.png"
+                                                    style="height: 1px; margin-bottom: 2vw;">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin Staff-->
+        <!--Footer-->
+        <footer>
+            <div class="tablaContainer">
+                <table align="center" class="tabla">
+                    <tbody>
+                        <tr>
+                            <td class="tdfooter">RESERVACIONES</td>
+                            <td class="tdfooter">VISÍTANOS</td>
+                            <td class="tdfooter" rowspan="6" ;><a href="#inicioe" class="scrollLink"><img src="img/logoFooter.svg"
+                                        style="width: 53%;"></a></td>
+                        </tr>
+                        <tr>
+                            <td class="tdfooter">hola@reservecut.com.mx<br><br>55 8946 9745</td>
+                            <td class="tdfooter address-cell" style="line-height: 20px;">
+                                <a href="https://goo.gl/maps/g3AHazTLG3M924vA6" target="_blank">
+                                    <img class="pin-icon" src="./img/map-pins-vector-clipart.png" alt=""></a>
+                                <div><a href="https://goo.gl/maps/g3AHazTLG3M924vA6" target="_blank">Av. Presidente
+                                        Masaryk 360, Pasaje Polanco<br>Local 18 Colonia Polanco, Miguel Hidalgo, CDMX.
+                                </div>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdfooter">
+                                <button role="link"
+                                    onclick="javascript:window.open( 'https://api.whatsapp.com/send/?phone=5215589469745&text&app_absent=0', '_blank');"
+                                    class="btn btnf btna" style="margin: 0%;">Agendar Cita</button>
+                            </td>
+                            <td class="tdfooter">SÍGUENOS EN NUESTRAS REDES SOCIALES
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdfooter"><a href="avisoPriv.html" target="_blank">AVISO DE PRIVACIDAD</a>
+                            </td>
+                            <td class="tdfooter">
+                                <a href="https://www.facebook.com/reservecutmx/" target="_blank">
+                                    <img src="img/fbd.svg" alt="facebook" style="margin: 5px; width: 32px;"></a>
+                                <a href="https://www.instagram.com/reservecutmx/" target="_blank">
+                                    <img src="img/instad.svg" alt="instagram" style="margin: 5px; width: 32px;"></a>
+                                <a href="https://api.whatsapp.com/send/?phone=5215589469745&text&app_absent=0"
+                                    target="_blank" target="_blank">
+                                    <img src="img/whatsd.svg" alt="WhatsApp" style="margin: 5px; width: 32px;"></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </footer>
+        <!--Fin Footer-->
+    </div>
+</body>
+<!--Script-->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-with-addons.min.js '></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.min.js '></script>
+<script src="scripts/script.js"></script>
+<script src="scripts/sidemenu.js"></script>
+<script src="scripts/carruselmovil.js"></script>
+<script src="scripts/staffanim.js"></script>
+<script src="scripts/checkboxes.js"></script>
+<!--Scroll chido-->
+<script>
+    $(document).ready(function () {
+      $("a.scrollLink").click(function (event) {
+        event.preventDefault();
+        $("html, body").animate({
+          scrollTop: $($(this).attr("href")).offset().top
+        }, 500);
+      });
+    });
+  </script>
+<!--Fin script-->
+
+</html>
